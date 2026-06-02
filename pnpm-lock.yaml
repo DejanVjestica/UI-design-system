@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      lit:
+        specifier: ^3.3.3
+        version: 3.3.3
     devDependencies:
       '@storybook/web-components':
         specifier: ^10.4.2
