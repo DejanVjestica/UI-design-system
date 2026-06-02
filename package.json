@@ -1,0 +1,19 @@
+{
+  "name": "govui-design-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/web-components": "^10.4.2",
+    "@storybook/web-components-vite": "^10.4.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  }
+}
