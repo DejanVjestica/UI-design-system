@@ -12,9 +12,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "test:watch": "vitest",
-
     "test:ui": "vitest --ui",
-
     "test:storybook": "vitest --project storybook",
     "test:browser": "vitest --browser"
   },
@@ -29,12 +27,14 @@
     "@vitest/coverage-v8": "^4.1.8",
     "jsdom": "^29.1.1",
     "playwright": "^1.60.0",
+    "prettier": "^3.8.4",
     "storybook": "^10.4.2",
     "typescript": "~6.0.2",
     "vite": "^8.0.12",
     "vitest": "^4.1.8"
   },
   "dependencies": {
-    "lit": "^3.3.3"
+    "lit": "^3.3.3",
+    "lit-html": "^3.3.3"
   }
 }
